@@ -144,5 +144,5 @@ class Philosopher
   /**
    * checks if the program is still running
    */
-  bool m_isRunning = false;
+  bool m_isRunning = true;
 };
