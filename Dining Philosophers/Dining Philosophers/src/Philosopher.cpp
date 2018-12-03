@@ -45,10 +45,8 @@ Philosopher::grab() {
         m_rightFork.m_mutex.unlock();
         return;
       }
-
     }
     m_leftFork.m_mutex.lock();
-
     eat();
   }
 
